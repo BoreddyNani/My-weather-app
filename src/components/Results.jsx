@@ -9,7 +9,7 @@ function Results() {
   const [error, setError] = useState(null);
 
   // REMEMBER: Replace this with your actual OpenWeatherMap API Key
-  const API_KEY = '17a5a3a383025a4d0b97b118c0c19c7b';
+  const API_KEY = '';
 
   useEffect(() => {
     const fetchWeather = async () => {
